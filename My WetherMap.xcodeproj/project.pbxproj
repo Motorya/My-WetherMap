@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB6A6881E0412440041619A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6A6871E0412440041619A /* AppDelegate.swift */; };
+		EFB6A68A1E0412450041619A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6A6891E0412450041619A /* ViewController.swift */; };
+		EFB6A68D1E0412450041619A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB6A68B1E0412450041619A /* Main.storyboard */; };
+		EFB6A68F1E0412450041619A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB6A68E1E0412450041619A /* Assets.xcassets */; };
+		EFB6A6921E0412450041619A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB6A6901E0412450041619A /* LaunchScreen.storyboard */; };
+		EFB6A69D1E0412450041619A /* My_WetherMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6A69C1E0412450041619A /* My_WetherMapTests.swift */; };
+		EFB6A6A81E0412450041619A /* My_WetherMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6A6A71E0412450041619A /* My_WetherMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB6A6991E0412450041619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB6A67C1E0412440041619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB6A6831E0412440041619A;
+			remoteInfo = "My WetherMap";
+		};
+		EFB6A6A41E0412450041619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB6A67C1E0412440041619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB6A6831E0412440041619A;
+			remoteInfo = "My WetherMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB6A6841E0412440041619A /* My WetherMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My WetherMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB6A6871E0412440041619A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB6A6891E0412450041619A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB6A68C1E0412450041619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB6A68E1E0412450041619A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB6A6911E0412450041619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB6A6931E0412450041619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB6A6981E0412450041619A /* My WetherMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My WetherMapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB6A69C1E0412450041619A /* My_WetherMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WetherMapTests.swift; sourceTree = "<group>"; };
+		EFB6A69E1E0412450041619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB6A6A31E0412450041619A /* My WetherMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My WetherMapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB6A6A71E0412450041619A /* My_WetherMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WetherMapUITests.swift; sourceTree = "<group>"; };
+		EFB6A6A91E0412450041619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB6A6811E0412440041619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A6951E0412450041619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A6A01E0412450041619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB6A67B1E0412440041619A = {
+			isa = PBXGroup;
+			children = (
+				EFB6A6861E0412440041619A /* My WetherMap */,
+				EFB6A69B1E0412450041619A /* My WetherMapTests */,
+				EFB6A6A61E0412450041619A /* My WetherMapUITests */,
+				EFB6A6851E0412440041619A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB6A6851E0412440041619A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB6A6841E0412440041619A /* My WetherMap.app */,
+				EFB6A6981E0412450041619A /* My WetherMapTests.xctest */,
+				EFB6A6A31E0412450041619A /* My WetherMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB6A6861E0412440041619A /* My WetherMap */ = {
+			isa = PBXGroup;
+			children = (
+				EFB6A6871E0412440041619A /* AppDelegate.swift */,
+				EFB6A6891E0412450041619A /* ViewController.swift */,
+				EFB6A68B1E0412450041619A /* Main.storyboard */,
+				EFB6A68E1E0412450041619A /* Assets.xcassets */,
+				EFB6A6901E0412450041619A /* LaunchScreen.storyboard */,
+				EFB6A6931E0412450041619A /* Info.plist */,
+			);
+			path = "My WetherMap";
+			sourceTree = "<group>";
+		};
+		EFB6A69B1E0412450041619A /* My WetherMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB6A69C1E0412450041619A /* My_WetherMapTests.swift */,
+				EFB6A69E1E0412450041619A /* Info.plist */,
+			);
+			path = "My WetherMapTests";
+			sourceTree = "<group>";
+		};
+		EFB6A6A61E0412450041619A /* My WetherMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB6A6A71E0412450041619A /* My_WetherMapUITests.swift */,
+				EFB6A6A91E0412450041619A /* Info.plist */,
+			);
+			path = "My WetherMapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB6A6831E0412440041619A /* My WetherMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB6A6AC1E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMap" */;
+			buildPhases = (
+				EFB6A6801E0412440041619A /* Sources */,
+				EFB6A6811E0412440041619A /* Frameworks */,
+				EFB6A6821E0412440041619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My WetherMap";
+			productName = "My WetherMap";
+			productReference = EFB6A6841E0412440041619A /* My WetherMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB6A6971E0412450041619A /* My WetherMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB6A6AF1E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMapTests" */;
+			buildPhases = (
+				EFB6A6941E0412450041619A /* Sources */,
+				EFB6A6951E0412450041619A /* Frameworks */,
+				EFB6A6961E0412450041619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB6A69A1E0412450041619A /* PBXTargetDependency */,
+			);
+			name = "My WetherMapTests";
+			productName = "My WetherMapTests";
+			productReference = EFB6A6981E0412450041619A /* My WetherMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB6A6A21E0412450041619A /* My WetherMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB6A6B21E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMapUITests" */;
+			buildPhases = (
+				EFB6A69F1E0412450041619A /* Sources */,
+				EFB6A6A01E0412450041619A /* Frameworks */,
+				EFB6A6A11E0412450041619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB6A6A51E0412450041619A /* PBXTargetDependency */,
+			);
+			name = "My WetherMapUITests";
+			productName = "My WetherMapUITests";
+			productReference = EFB6A6A31E0412450041619A /* My WetherMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB6A67C1E0412440041619A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Motorya Mark";
+				TargetAttributes = {
+					EFB6A6831E0412440041619A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFB6A6971E0412450041619A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB6A6831E0412440041619A;
+					};
+					EFB6A6A21E0412450041619A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB6A6831E0412440041619A;
+					};
+				};
+			};
+			buildConfigurationList = EFB6A67F1E0412440041619A /* Build configuration list for PBXProject "My WetherMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB6A67B1E0412440041619A;
+			productRefGroup = EFB6A6851E0412440041619A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB6A6831E0412440041619A /* My WetherMap */,
+				EFB6A6971E0412450041619A /* My WetherMapTests */,
+				EFB6A6A21E0412450041619A /* My WetherMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB6A6821E0412440041619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB6A6921E0412450041619A /* LaunchScreen.storyboard in Resources */,
+				EFB6A68F1E0412450041619A /* Assets.xcassets in Resources */,
+				EFB6A68D1E0412450041619A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A6961E0412450041619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A6A11E0412450041619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB6A6801E0412440041619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB6A68A1E0412450041619A /* ViewController.swift in Sources */,
+				EFB6A6881E0412440041619A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A6941E0412450041619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB6A69D1E0412450041619A /* My_WetherMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6A69F1E0412450041619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB6A6A81E0412450041619A /* My_WetherMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB6A69A1E0412450041619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB6A6831E0412440041619A /* My WetherMap */;
+			targetProxy = EFB6A6991E0412450041619A /* PBXContainerItemProxy */;
+		};
+		EFB6A6A51E0412450041619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB6A6831E0412440041619A /* My WetherMap */;
+			targetProxy = EFB6A6A41E0412450041619A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB6A68B1E0412450041619A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB6A68C1E0412450041619A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB6A6901E0412450041619A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB6A6911E0412450041619A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB6A6AA1E0412450041619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFB6A6AB1E0412450041619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB6A6AD1E0412450041619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My WetherMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFB6A6AE1E0412450041619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My WetherMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFB6A6B01E0412450041619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My WetherMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My WetherMap.app/My WetherMap";
+			};
+			name = Debug;
+		};
+		EFB6A6B11E0412450041619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My WetherMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My WetherMap.app/My WetherMap";
+			};
+			name = Release;
+		};
+		EFB6A6B31E0412450041619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "My WetherMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My WetherMap";
+			};
+			name = Debug;
+		};
+		EFB6A6B41E0412450041619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "My WetherMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.My-WetherMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My WetherMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB6A67F1E0412440041619A /* Build configuration list for PBXProject "My WetherMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB6A6AA1E0412450041619A /* Debug */,
+				EFB6A6AB1E0412450041619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB6A6AC1E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB6A6AD1E0412450041619A /* Debug */,
+				EFB6A6AE1E0412450041619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB6A6AF1E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB6A6B01E0412450041619A /* Debug */,
+				EFB6A6B11E0412450041619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB6A6B21E0412450041619A /* Build configuration list for PBXNativeTarget "My WetherMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB6A6B31E0412450041619A /* Debug */,
+				EFB6A6B41E0412450041619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB6A67C1E0412440041619A /* Project object */;
+}
